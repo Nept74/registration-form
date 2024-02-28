@@ -189,7 +189,6 @@ export default {
 </script>
   
 <style scoped lang="scss">
-$background-color: rgb(223, 238, 231);
 $tablet-breakpoint: 768px;
 $desktop-breakpoint: 1024px;
 $label-width-mobile: 100%;
@@ -214,7 +213,7 @@ $input-width-desktop: 75%;
 }
 
 .client-form {
-  background-color: $background-color;
+  background-color: rgb(223, 238, 231);
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

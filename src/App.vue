@@ -28,7 +28,6 @@ export default {
 }
 
 header {
-  background-color: #006400; 
   color: white; 
   text-align: center;
   padding: 20px 0;
@@ -38,6 +37,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background: linear-gradient(to top, rgb(223, 238, 231), #006400);
 }
 
 main {
